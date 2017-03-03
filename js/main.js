@@ -191,7 +191,7 @@ webpackJsonp([0],{
 	                        null,
 	                        _react2.default.createElement(
 	                            _reactRouter.Link,
-	                            { to: "/", activeClassName: "active" },
+	                            { to: "/home", activeClassName: "active" },
 	                            "\u9996\u9875"
 	                        )
 	                    ),

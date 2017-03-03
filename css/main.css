@@ -26,8 +26,6 @@
         -webkit-transition: all .3s ease;
         transition: all .3s ease; }
       .siderBar li a.active {
-        right: 0;
-        opacity: 1;
         color: #009a61; }
   .siderBar .bg {
     height: 100%;
@@ -37,6 +35,9 @@
     top: 0;
     transform: skew(-5deg);
     background: #fff; }
+  .siderBar.active {
+    right: 0;
+    opacity: 1; }
 .index {
   width: 400px;
   background: rgba(255, 255, 255, 0.7);
@@ -52,7 +53,7 @@
 .project {
   width: 600px;
   background: rgba(255, 255, 255, 0.9);
-  padding: 10px;
+  padding: 20px;
   height: 500px;
   overflow-y: auto;
   position: absolute;
@@ -65,14 +66,14 @@
     color: #009a61; }
   .project ul {
     list-style-type: disc;
-    padding: inherit; }
+    margin-left: 20px; }
   .project li {
     margin: 10px 0;
     box-sizing: border-box; }
 .resume {
   width: 600px;
   height: 500px;
-  padding: 10px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 50%;
@@ -85,7 +86,7 @@
     color: #009a61; }
   .resume ul {
     list-style-type: disc;
-    padding: inherit; }
+    margin-left: 20px; }
   .resume li {
     line-height: 24px;
     margin: 5px 0; }
