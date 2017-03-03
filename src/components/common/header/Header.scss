@@ -1,0 +1,48 @@
+.siderBar {
+  height:100%;
+  background:#fff;
+  width:300px;
+  position:absolute;
+  right:-100%;
+  top:0;
+  text-align: center;
+  -webkit-transition:all .6s ease .3s ;
+  transition:all .6s ease .3s;
+  opacity:0;
+  z-index: 100;
+  ul{
+    margin:50px 0 0 50px;
+  }
+  li {
+    margin:10px 0;
+    text-align:left;
+    font-size:18px;
+    a {
+      color:#4bc1eb;
+      padding:10px 0;
+      position:relative;
+      color:#000;
+      &:hover {
+      color:#009a61;
+      -webkit-transition:all .3s ease ;
+      transition:all .3s ease;
+      }
+      &.active {
+        color:#009a61;
+      }
+    }
+  }
+  .bg {
+    height:100%;
+    width:100%;
+    position:absolute;
+    left:-16%;
+    top:0;
+    transform: skew(-5deg);
+    background:#fff;
+  }
+   &.active {
+    right:0;
+    opacity:1;
+  }
+}
